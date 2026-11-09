@@ -22,6 +22,9 @@ function App() {
             I am learning React and Git.
           </p>
           <Button label="Click me" />
+          <footer className="app-footer">
+  <p>© 2026 React Practice Board · Built while learning Git & GitHub</p>
+</footer>
         </div>
         <button
           type="button"
