@@ -17,11 +17,14 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Welcome to my React app</h1>
+          <h1>React practice board</h1>
           <p>
             I am learning React and Git.
           </p>
           <Button label="Click me" />
+          <footer className="app-footer">
+  <p>© 2026 React Practice Board · Built while learning Git & GitHub</p>
+</footer>
         </div>
         <button
           type="button"

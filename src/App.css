@@ -17,7 +17,6 @@
   }
 }
 
-
 .hero {
   position: relative;
 
@@ -183,11 +182,12 @@
     border-right-color: var(--border);
   }
 }
+
 .primary-button {
   background-color: #4f46e5;
   color: #ffffff;
   border: none;
-  padding: 12px 28px;                /* from 10px 24px to 12px 28px */
+  padding: 12px 28px;
   font-size: 16px;
   font-weight: 600;
   border-radius: 8px;
@@ -198,9 +198,18 @@
 
 .primary-button:hover {
   background-color: #4338ca;
-  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);    /* added box-shadow on hover */
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
 }
 
 .primary-button:active {
   transform: scale(0.97);
+}
+
+.app-footer {
+  margin-top: 48px;
+  padding: 16px 0;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
 }
