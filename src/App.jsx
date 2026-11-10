@@ -17,7 +17,7 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>React practice board</h1>
+          <h1>My React practice board</h1>  
           <p>
             I am learning React and Git.
           </p>
